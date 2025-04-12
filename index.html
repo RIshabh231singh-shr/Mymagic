@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Happy Birthday, My Love</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Audio Control -->
+    <div class="audio-control">
+      <button id="musicToggle" aria-label="Toggle background music">
+        <span class="music-on">♪</span>
+        <span class="music-off">♪</span>
+      </button>
+      <audio id="bgMusic" loop>
+        <source src="assets/background-music.mp3" type="audio/mp3" />
+      </audio>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navigation">
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#journey">Our Journey</a></li>
+        <li><a href="#letter">Love Letter</a></li>
+        <li><a href="#reasons">Why I Love You</a></li>
+        <li><a href="#video">Surprise</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#wishes">Wishes</a></li>
+        <li><a href="#closing">Closing</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <h1 class="fade-in">Happy Birthday, My Love</h1>
+        <p class="fade-in delay-1">
+          A little digital surprise from the one who loves you most
+        </p>
+        <a href="#journey" class="btn fade-in delay-2">Start the Journey</a>
+      </div>
+      <div class="floating-hearts"></div>
+    </section>
+
+    <!-- Our Journey Together -->
+    <section id="journey" class="journey">
+      <h2>Our Journey Together</h2>
+      <div class="timeline">
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="polaroid">
+              <img src="first_pic_saw.jpg" alt="The pic which I saw" />
+              <p class="caption">When our eyes first met (virtual)</p>
+              <p class="date">
+                The first pic of yours which I saw and literally fell for you
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <div class="polaroid">
+              <img src="distance.jpg" alt="U distanceing phase" />
+              <p class="caption">You in this phase makes me sure</p>
+              <p class="date">
+                Distance incresed but trust harden in this time
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="polaroid">
+              <img src="video_call.jpg" alt="videocall" />
+              <p class="caption">Mine favorite video call</p>
+              <p class="date">Breaked the 4th wall</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item right">
+          <div class="timeline-content">
+            <div class="polaroid">
+              <img src="Endless.jpg" alt="Endless Confessions" />
+              <p class="caption">
+                Our endless confession towards eachother always feels great
+              </p>
+              <p class="date">Endless Confessions</p>
+            </div>
+          </div>
+        </div>
+        <div class="timeline-item left">
+          <div class="timeline-content">
+            <div class="polaroid">
+              <img src="Today and forever.jpg" alt="Today" />
+              <p class="caption">Today and forever</p>
+              <p class="date">Your Rishabh</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Love Letter Section -->
+    <section id="letter" class="letter">
+      <div class="letter-container">
+        <h2>My Love Letter to You</h2>
+        <div class="letter-content">
+          <p class="love-text">My Dearest,</p>
+          <p class="love-text">
+            As you celebrate another year of your beautiful life, I wanted to
+            take a moment to tell you just how much you mean to me. Every day
+            with you is a gift for me I admire deeply.
+          </p>
+          <p class="love-text">
+            Teri muskaan mere andheron mein roshni ban jaati hai.<br />Teri
+            hansi ek aisi dhun hai jo mere dil mein har waqt bajti rehti hai.<br />
+            Tujhse mile hue jabana ho gaya hai, par tera khayal har pal mere
+            saath hota hai.
+          </p>
+          <p class="love-text quote">
+            "If I could write a story, it would begin and end with you."
+          </p>
+          <p class="love-text">
+            Unfortunately You were not my past but u are my present, will be
+            definetily my future. Thank you for being the extraordinary person
+            that you are.
+          </p>
+          <p class="love-text">
+            Happy Birthday, my love.<br />
+            Here's I decidate a song to you.
+          </p>
+          <p class="love-text signature">Forever Yours</p>
+        </div>
+        <button id="playMelody" class="btn melody-btn">Play a Melody</button>
+        <audio id="melodyAudio">
+          <source src="assets/piano-melody.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+    </section>
+
+    <!-- Reasons I Love You -->
+    <section id="reasons" class="reasons">
+      <h2>Reasons I Love You</h2>
+      <div class="carousel-container">
+        <button class="carousel-btn prev" aria-label="Previous reason">
+          ❮
+        </button>
+        <div class="carousel">
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="coresal!.jpg" alt="endless" />
+              </div>
+              <p>Shreya, Tumhari Simplicity</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="1.jpg" alt="endless" />
+              </div>
+              <p>Tumahara dedication</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="3.jpg" alt="endless" />
+              </div>
+              <p>Your kindness and Nature</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="4.jpg" alt="endless" />
+              </div>
+              <p>And ofcorse your Cuteness</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="5.jpg" alt="endless" />
+              </div>
+              <p>Your passion for the things you love</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="6.jpg" alt="endless" />
+              </div>
+              <p>How you make me a better person espically spritually</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="heart-note">
+              <div class="heart-icon">
+                <img src="7.jpg" alt="endless" />
+              </div>
+              <p>And many more....</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-btn next" aria-label="Next reason">❯</button>
+      </div>
+      <div class="carousel-dots"></div>
+    </section>
+
+    <!-- Birthday Video Surprise -->
+    <section id="video" class="video">
+      <h2>A Special Surprise</h2>
+      <div class="video-container">
+        <button
+          id="videoButton"
+          class="video-btn"
+          aria-label="Open birthday video"
+        >
+          <div class="gift-box">
+            <div class="gift-lid"></div>
+            <div class="gift-box-body"></div>
+            <div class="gift-ribbon"></div>
+          </div>
+          <span>Click to Open</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close-modal">&times;</span>
+        <div class="video-wrapper">
+          <video id="birthdayVideo" controls>
+            <source src="assets/birthday-video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery Wall -->
+    <section id="gallery" class="gallery">
+      <h2>Our Memories</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <video src="memory1.mp4" controls poster="thubnail3.jpg"></video>
+          <div class="gallery-caption">
+            <p>My Cutu ❤️❤️</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <video
+            src="Special moments.mp4"
+            controls
+            poster="thubnail2.jpg"
+          ></video>
+          <div class="gallery-caption">
+            <p>See in Picture in Picture</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <video src="memory6.mp4" controls poster="thubnail1.jpg"></video>
+          <div class="gallery-caption">
+            <p>The Confession 🤌🏽🤌🏽</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="memory2.jpg" alt="Memory 4" />
+          <div class="gallery-caption">
+            <p>Mid Night Talks</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="memory4.jpg" alt="Memory 5" />
+          <div class="gallery-caption">
+            <p>The way you admire🫠🫠</p>
+          </div>
+        </div>
+        <div class="gallery-item">
+          <img src="memory5.jpg" alt="Memory 6" />
+          <div class="gallery-caption">
+            <p>The peace in front of u</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Modal -->
+    <div id="galleryModal" class="modal">
+      <div class="modal-content gallery-modal-content">
+        <span class="close-modal">&times;</span>
+        <img id="modalImage" src="/placeholder.svg" alt="Enlarged photo" />
+        <p id="modalCaption"></p>
+      </div>
+    </div>
+
+    <!-- Wishes from Friends & Family -->
+    <section id="wishes" class="wishes">
+      <h2>Birthday Wishes</h2>
+      <div class="wishes-container">
+        <div class="wish-card">
+          <div class="wish-profile">
+            <img src="Wish1.jpg" alt="Friend 1" />
+          </div>
+          <div class="wish-content">
+            <h3>Me as Friend</h3>
+            <p>
+              Happy birthday to the most amazing friend! You deserve all the
+              happiness in the world. Love you lots! <br />
+              Ache se enjoy kar! 🎉😄
+            </p>
+          </div>
+        </div>
+        <div class="wish-card">
+          <div class="wish-profile">
+            <img src="wish2.jpg" alt="Friend 2" />
+          </div>
+          <div class="wish-content">
+            <h3>Me as a boyfriend</h3>
+            <p>
+              "Janamdin mubarak ho meri Cookie 💖<br />
+              Tera aana meri zindagi ka sabse khoobsurat hissa ban gaya hai. Har
+              pal main tera shukriya karta hoon — apni muskaan, apna pyaar, aur
+              apna sab kuch mere saath baantne ke liye. Aaj tera din hai, aur
+              main chahta hoon ki tu har second special feel kare. Khush rho,
+              haste rho... aur hamesha meri rho. Tu meri zindagi ka sabse pyara
+              hissa hai. Love you endlessly ❤️🎂"
+            </p>
+          </div>
+        </div>
+        <div class="wish-card">
+          <div class="wish-profile">
+            <img src="wish3.jpg" alt="Family 1" />
+          </div>
+          <div class="wish-content">
+            <h3>Me as a classmate</h3>
+            <p>
+              Happy birthday Shreya! Ab as a classmate isse jada mai nhi
+              bolta😂😂
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Starry Night Closing Section -->
+    <section id="closing" class="closing">
+      <div class="stars"></div>
+      <div class="twinkling"></div>
+      <div class="closing-content">
+        <h2>To my brightest star</h2>
+        <p>Thank you for lighting up my world.</p>
+        <div class="star-heart" id="starHeart"></div>
+      </div>
+    </section>
+
+    <!-- Easter Eggs -->
+    <div class="easter-eggs">
+      <div class="hidden-heart" data-message="I love your smile"></div>
+      <div class="hidden-heart" data-message="You're my everything"></div>
+      <div class="hidden-heart" data-message="Forever and always"></div>
+      <div class="hidden-heart" data-message="You're my dream come true"></div>
+      <div class="hidden-heart" data-message="My heart is yours"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
